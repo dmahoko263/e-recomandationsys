@@ -1,5 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: "https://your-django-api.com/api",
-  apiUrl1: "http://localhost:8000/",
+  apiUrl: "http://localhost:8000/",
 }
