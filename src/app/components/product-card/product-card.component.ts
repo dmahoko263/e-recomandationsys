@@ -17,7 +17,7 @@ export class ProductCardComponent {
     // Handle relative URLs from the backend
     
     if (path && path.startsWith("/")) {
-      return `${environment.apiUrl1}${path}`
+      return `${environment.apiUrl}${path}`
     }
     return path || "/assets/placeholder.jpeg"
   }
